@@ -1,9 +1,13 @@
 {
-  "name": "previousnext/phpunit-finder",
+  "name": "dossierdata/phpunit-finder",
   "description": "PHP lib for finding and outputting all tests from a phpunit.xml config file.",
   "keywords": ["testing"],
   "license": "GPL-2.0-or-later",
   "authors": [
+    {
+      "name": "Lucas van der Have",
+      "email": "lucas@dossierdata.nl"
+    },
     {
       "name": "Kim Pepper",
       "email": "kim@previousnext.com.au"
@@ -14,8 +18,8 @@
     }
   ],
   "require": {
-    "php": "^7.4||^8.0",
-    "phpunit/phpunit": "^9.5",
+    "php": "^8.1||^8.2||^8.3",
+    "phpunit/phpunit": "^8.5||^9.5",
     "symfony/console": "^3.4||^4.4||^5||^6"
   },
   "require-dev": {
